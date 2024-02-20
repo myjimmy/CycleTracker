@@ -24,5 +24,19 @@
             "src": "icons/wheel.svg",
             "sizes": "600x600"
         }
+    ],
+    "screenshots": [
+        {
+            "src": "/images/screenshot-narrow.png",
+            "type": "image/png",
+            "sizes": "458x762",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "/images/screenshot-wide.png",
+            "type": "image/png",
+            "sizes": "1050x530",
+            "form_factor": "wide"
+        }
     ]
 }
