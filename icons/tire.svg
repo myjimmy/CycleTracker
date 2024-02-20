@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256px" height="256px" viewBox="0 0 256 256" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:45;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(80%,100%,80%);stroke-opacity:1;stroke-miterlimit:4;" d="M 525 300 C 525 424.264526 424.264526 525 300 525 C 175.735474 525 75 424.264526 75 300 C 75 175.735474 175.735474 75 300 75 C 424.264526 75 525 175.735474 525 300 Z M 525 300 " transform="matrix(0.426667,0,0,0.426667,0,0)"/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(80%,100%,80%);stroke-opacity:1;stroke-miterlimit:4;" d="M 300 70.001221 L 300 525 M 70.001221 300 L 525 300 M 129.995728 129.995728 L 470.004272 470.004272 M 129.995728 470.004272 L 470.004272 129.995728 " transform="matrix(0.426667,0,0,0.426667,0,0)"/>
+</g>
+</svg>
