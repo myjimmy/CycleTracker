@@ -28,3 +28,21 @@ newPeriodFormEl.addEventListener("submit", (event) => {
     // Reset the form.
     newPeriodFormEl.reset();
 });
+
+// Check if the dates are invalid
+function checkDatesInvalid(startDate, endDate) {
+    // Check that end date is after start date and neither is null.
+    if (!startDate || !endDate || startDate > endDate) {
+        // To make the validation robust we could:
+        // 1. add error messaging based on error type
+        // 2. Alert assistive technology users about the error
+        // 3. move focus to the error location
+        // instead, for now, we clear the dates if either
+        // or both are invalid
+        newPeriodFormEl.reset();
+        // as dates are invalid, we return true
+        return true;
+    }
+    // else
+    return false;
+}
