@@ -24,3 +24,20 @@ self.addEventListener("install", (event) => {
     );
 });
 
+// delete old caches on activate
+self.addEventListener("activate", (event) => {
+    event.waitUntil(
+        (async () => {
+            const names = await caches.keys();
+            await Promise.all(
+                names.map((name) => {
+                    if (name !== CACHE_NAME) {
+                        return caches.delete(name);
+                    }
+                })
+            );
+            await clients.claim();
+        })()
+    );
+});
+
