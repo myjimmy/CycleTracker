@@ -14,3 +14,13 @@ const APP_STATIC_RESOURCES = [
     "/icons/wheel.svg",
 ];
 
+// On install, cache the static resources
+self.addEventListener("install", (event) => {
+    event.waitUntil(
+        (async () => {
+            const cache = await caches.open(CACHE_NAME);
+            cache.addAll(APP_STATIC_RESOURCES);
+        })()
+    );
+});
+
